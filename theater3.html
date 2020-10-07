@@ -1,85 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>syariah online festival</title>
-  <style type="text/css">
-    body{
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/fbcbee1ea9.js"></script>
+	<style type="text/css">
+	body{
     min-height:100vh;
     background-image: url("./pic/theater1.jpg");
     background-size: 100% 100%;
     }
-     #sz{
-      height: 400px;
-     }
-    main > .container {
-      padding: 60px;
-      margin-right: 25px;
-    }
-    #counter {
-    position: absolute;
-    max-width: 99%;
+
+     /*Extra small devices (portrait phones, less than 576px)*/
+	@media (max-width: 575.98px) {
+	img {
+	        margin-top: 65px;
+	        width: 250px;
+	        height: 400px;
+	        margin-left: 10px;	 
+	    }	
 	}
-    
- 
 
-  </style>
+	/*// Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) and (max-width: 767.98px) {
+		img {
+	        margin-top: 65px;
+	        width: 300px;
+	        height: 400px;
+	        margin-left: 10px;	 
+	    }
+	}
 
+	/*// Medium devices (tablets, 768px and up)*/
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		img {
+	        margin-top: 65px;
+	        width: 450px;
+	        height: 400px;
+	        margin-left: 10px;	 
+	    }
+	}
+
+	/*// Large devices (desktops, 992px and up)*/
+	@media (min-width: 992px) and (max-width: 1199.98px) { 
+		img {
+	        margin-top: 65px;
+	        width: 600px;
+	        height: 400px;
+	        margin-left: 10px;	 
+	    }
+	 }
+
+	/*// Extra large devices (large desktops, 1200px and up)*/
+	@media (min-width: 1200px) {
+		img {
+	    	margin-top: 65px;
+	        width: 800px;
+	        height: 400px;
+	        margin-left: 10px;	 
+	        }
+	}
+
+	</style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!doctype html>
-<html lang="en">
+	<div class="containter">
+		<div class="row">
+			<div class="col-md-12 text-center">
+	   			<!--  <img src="./pic/webinar-01.jpg" class="ss" /> -->
+	   			<div id="carouselExampleIndicators" class="carousel slide sw" data-ride="carousel">
+	            <ol class="carousel-indicators">
+	              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+	            </ol>
+	            <div class="carousel-inner">
+	              <div class="carousel-item active">
+	                <img src="./pic/ABOUT.jpg"  alt="...">
+	              </div>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <!-- The viewport meta tag allows a device to make use of the responsive features of bootstrap.  Without this tag an iPhone for instance will view the file as if it were running on a PC -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://use.fontawesome.com/fbcbee1ea9.js"></script>
-  <title>Hello, world!</title>
-</head>
-
-<body class="d-flex flex-column">
-  <main role="main">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 85%;">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./pic/ABOUT.jpg" class="d-block w-100 ss" id="sz" alt="...">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	            </div>
+	            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+	            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	          </a>
+	                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+	            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	          </a>
+	          </div>
+			</div>
+			
+		</div>
+		
+	</div>
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-
-</html>
-<!-- partial -->
-  
 </body>
 </html>
